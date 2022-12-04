@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ViewTodoComponent } from './view-todo/view-todo.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -16,7 +17,8 @@ const myRoute:Routes=[
 @NgModule({
   declarations: [
     AppComponent,
-    ViewTodoComponent
+    ViewTodoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
